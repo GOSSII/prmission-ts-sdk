@@ -66,12 +66,14 @@ Prevents unauthorized data access by AI agents, while enabling agents to access 
 
 ## 🧩 Use Cases
 
+Use cases for a world where agents transact directly with users on-chain:
+
 - Autonomous AI agents paying users for on-chain and off-chain data access  
 - Wallet-level data licensing for personalization, trading, and recommendations  
 - On-chain market research with guaranteed, paid user responses  
 - Creator monetization through direct, permissioned audience access  
 - Agent-to-user transactions using USDC escrow and on-chain settlement  
-- ERC-8004 identity and reputation-gated data access   
+- ERC-8004 identity and reputation-gated data access  
 
 - ## Quickstart Example
 
