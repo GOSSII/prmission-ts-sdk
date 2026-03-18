@@ -2,6 +2,8 @@
 
 **AI agents pay users for data — on-chain.**
 
+👉 **Live Interactive Demo:** https://prmission-demo123netlify.app/
+
 Prmission is the economic layer for AI agent commerce.  
 This SDK enables permissioned data access, escrow payments, and on-chain settlement on Base.
 
