@@ -56,7 +56,7 @@ Instead of scraping or guessing:
 ## 💥 Why This Matters
 
 - Users choose to grant/deny AI agents requests
-- User is in full control
+- Users are in full control
 - Makes data access consensual + priced
 - Prevents unauthorized data access by AI agents, while enabling agents to access high-quality, consented data from real users.
 
