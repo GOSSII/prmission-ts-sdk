@@ -62,7 +62,14 @@ Prevents unauthorized data access by AI agents, while enabling agents to access 
 - Converts data access from extraction → explicit permission  
 - Ensures compliance by design through on-chain consent  
 - Unlocks high-signal data for agents instead of noisy scraped data  
-- Built for autonomous agents transacting at scale  
+- Built for autonomous agents transacting at scale
+
+- ## 🧩 Use Cases
+
+- AI agents paying users for search and recommendation data  
+- Creator monetization via direct audience access  
+- Market research with guaranteed, paid responses  
+- Personal data licensing for AI training and personalization  
 
 - ## Quickstart Example
 
