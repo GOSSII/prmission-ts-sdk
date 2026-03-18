@@ -64,12 +64,14 @@ Prevents unauthorized data access by AI agents, while enabling agents to access 
 - Unlocks high-signal data for agents instead of noisy scraped data  
 - Built for autonomous agents transacting at scale
 
-- ## 🧩 Use Cases
+## 🧩 Use Cases
 
-- AI agents paying users for search and recommendation data  
-- Creator monetization via direct audience access  
-- Market research with guaranteed, paid responses  
-- Personal data licensing for AI training and personalization  
+- Autonomous AI agents paying users for on-chain and off-chain data access  
+- Wallet-level data licensing for personalization, trading, and recommendations  
+- On-chain market research with guaranteed, paid user responses  
+- Creator monetization through direct, permissioned audience access  
+- Agent-to-user transactions using USDC escrow and on-chain settlement  
+- ERC-8004 identity and reputation-gated data access   
 
 - ## Quickstart Example
 
