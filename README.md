@@ -24,12 +24,15 @@ The official TypeScript SDK for Prmission — a consent-gated escrow protocol fo
 
 👉 https://prmission-demo123.netlify.app
 
-Simulates:
-- Permission creation  
-- USDC escrow deposit  
-- Outcome reporting  
-- Settlement  
+### What you're seeing
 
+A full agent-to-user transaction flow:
+
+1. Agent requests permission  
+2. User sets terms  
+3. USDC is deposited into escrow  
+4. Outcome is reported  
+5. Settlement executes on-chain  
 ---
 
 ## 🚀 60-Second Quickstart
