@@ -1,4 +1,4 @@
-import { PrmissionClient } from "@prmission/sdk";
+import { PrmissionClient, PROTOCOL_FEE_BPS } from "@prmission/sdk";
 import { ethers } from "ethers";
 
 async function main() {
@@ -10,8 +10,11 @@ async function main() {
   const wallet = new ethers.Wallet(process.env.PRIVATE_KEY!, client.provider);
   client.connect(wallet);
 
-  const fee = await client.getProtocolFeeBps();
-  console.log("Protocol fee (bps):", fee.toString());
+  console.log("SDK connected successfully");
+  console.log("Protocol fee (bps):", PROTOCOL_FEE_BPS.toString());
 }
 
-main();
+main().catch((err) => {
+  console.error(err);
+  process.exit(1);
+});
