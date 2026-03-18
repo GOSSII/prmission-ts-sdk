@@ -1,12 +1,36 @@
 # prmission-sdk
 
-The official TypeScript SDK for [Prmission Protocol](https://github.com/marcosbenaim-hub/Prmission-Protocol) — consent-gated escrow and USDC settlement for AI agent commerce on Base.
+**AI agents pay users directly for permission to access data.**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Base Mainnet](https://img.shields.io/badge/Base-Mainnet-0052FF.svg)](https://basescan.org/address/0x0c8B16a57524f4009581B748356E01e1a969223d)
-[![npm](https://img.shields.io/npm/v/prmission-sdk.svg)](https://www.npmjs.com/package/prmission-sdk)
+The official TypeScript SDK for Prmission — a **consent-gated escrow protocol** for AI agent commerce, live on Base.
 
 ---
+
+## ⚡ Live on Base Mainnet
+
+- **Contract:** https://basescan.org/address/0x0c8B16a57524f4009581B748356E01e1a969223d  
+- **Network:** Base  
+- **Settlement:** USDC  
+- **Protocol Fee:** 3% (on-chain)  
+
+---
+
+## 🎬 Live Demo
+
+👉 https://prmission-demo123.netlify.app
+
+Simulates:
+- Permission creation  
+- USDC escrow deposit  
+- Outcome reporting  
+- Settlement  
+
+---
+
+## 🚀 60-Second Quickstart
+
+```bash
+npm install prmission-sdk
 
 ## Overview
 
@@ -19,22 +43,6 @@ Fully compatible with ethers v6.
 **Payment Token:** USDC (6 decimals)  
 **Protocol Fee:** 3% per settlement (`PROTOCOL_FEE_BPS`)  
 **Dispute Window:** 24 hours (`DISPUTE_WINDOW_SECONDS`)
-
----
-
-## Live Demo
-
-Explore the protocol in action:
-
-🔗 https://prmission-demo123.netlify.app
-
-Simulates the full flow:
-- Permission creation  
-- USDC escrow deposit  
-- Outcome reporting  
-- Settlement  
-
----
 
 ## Installation
 
