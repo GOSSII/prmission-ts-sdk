@@ -50,15 +50,15 @@ Prmission is the economic layer for AI agents.
 Instead of scraping or guessing:
 - Agents request permission
 - Users set terms
-- Agents pay in USDC
+- Agents pay in USDC upfront in escrow
 - Settlement is enforced on-chain
 
 ## 💥 Why This Matters
 
-- Replaces ads with direct payments to users
-- Eliminates wasted CAC
+- Users choose to grant/deny AI agents requests
+- User is in full control
 - Makes data access consensual + priced
-- Built for autonomous AI agents transacting at scale.
+- Prevents unauthorized data access by AI agents, while enabling agents to access high-quality, consented data from real users.
 
 - ## Quickstart Example
 
