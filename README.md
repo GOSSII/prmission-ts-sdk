@@ -32,6 +32,38 @@ Simulates:
 ```bash
 npm install prmission-sdk
 
+import { PrmissionClient, parseUsdc } from "prmission-sdk";
+import { ethers } from "ethers";
+
+const client = new PrmissionClient({
+  contractAddress: "0x0c8B16a57524f4009581B748356E01e1a969223d",
+  rpcUrl: "https://mainnet.base.org",
+});
+
+const provider = new ethers.BrowserProvider(window.ethereum);
+const signer = await provider.getSigner();
+client.connect(signer);
+
+const permissionId = await client.grantPermission({
+  dataCategory: "browsing-history",
+  purpose: "ad personalisation",
+  compensationBps: 2000,
+  validityPeriod: 86400,
+});
+
+const escrowId = await client.depositEscrow(
+  permissionId,
+  parseUsdc("50.00"),
+);
+
+await client.reportOutcome({
+  escrowId,
+  outcomeValue: parseUsdc("50.00"),
+  outcomeType: "ad-click",
+});
+
+await client.settle(escrowId);
+
 ## Overview
 
 `PrmissionClient` wraps all `Prmission.sol` contract interactions with typed interfaces, automatic USDC allowance handling, and human-readable formatting.
