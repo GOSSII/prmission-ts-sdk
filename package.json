@@ -25,6 +25,7 @@
     "ui:dev": "vite --config examples/ui/vite.config.ts --host",
     "ui:build": "vite build --config examples/ui/vite.config.ts",
     "ui:preview": "vite preview --config examples/ui/vite.config.ts --host",
+    "prepare": "npm run build",
     "prepublishOnly": "npm run clean && npm run build"
   },
   "dependencies": {
